@@ -34,4 +34,6 @@ body {
   border-color: #006976;
 }
 
-
+.pagination {
+  margin-bottom: 30px;
+}
