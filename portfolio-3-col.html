@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Turbodega</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,6 +40,7 @@
                 <a class="dropdown-item" href="pricing.html">Catalogue</a>                
                 <a class="dropdown-item" href="portfolio-3-col.html">Active Bids</a>
                 <a class="dropdown-item" href="portfolio-4-col.html">Bid History</a>
+                <a class="dropdown-item" href="information.html">Update Information</a>
               </div>
             </li>
             <li class="nav-item">
@@ -59,18 +60,103 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Portfolio 3
-        <small>Subheading</small>
+      <h1 class="mt-4 mb-3">Active Bids
+        <small></small>
       </h1>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.html">Home</a>
         </li>
-        <li class="breadcrumb-item active">Portfolio 3</li>
+        <li class="breadcrumb-item active">Active Bids</li>
       </ol>
 
-      <div class="row">
+
+  <p>
+    Please choose the category of products you would wish to view the SKUs of. 
+  </p>
+
+  <select>
+    <option value="beverages">Beverages (coffee, soda, juice)</option>
+      <option value="breadbakery">Bread/Bakery (sandwich loaves, dinner rolls, tortillas, bagels)</option>
+      <option value="cannedgoods">Canned Goods (vegetables, spaghetti sauce, ketchup)</option>
+      <option value="dairy">Dairy (cheeses, eggs, milk, yogurt, butter)</option>
+      <option value="drybakinggoods">Dry/Baking Goods (cereals, flour, sugar, pasta, mixes)</option>
+      <option value="frozengoods">Frozen Foods (waffles, vegetables, individual meals, ice cream)</option>
+      <option value="meat">Meat (lunch meat, poultry, beef, pork)</option>
+      <option value="produce">Produce (fruits, vegetables)</option>
+      <option value="cleaners">Cleaners (laundry detergent, dishwashing liquid/detergent)</option>
+      <option value="papergoods">Paper Goods (paper towels, toilet paper, aluminum foil, sandwich bags)</option>
+      <option value="personalcare">Personal Care (shampoo, soap, hand soap, shaving cream)</option>
+      <option value="other">Other (baby items, pet items, batteries, greeting cards)</option>
+    </select>
+
+    <br></br>
+    <br></br>
+
+
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+</style>
+<table class="tg", align=center>
+  <tr>
+    <th class="tg-baqh">SKU</th>
+    <th class="tg-baqh">Order Size</th>
+    <th class="tg-baqh">Closing At</th>
+    <th class="tg-baqh">Minimum Bid Price Per Unit</th>
+    <th class="tg-baqh">My Bid</th>
+    <th class="tg-baqh">Units Desired</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">A</td>
+    <td class="tg-baqh">5000</td>
+    <td class="tg-baqh">5:00 PM November 20</td>
+    <td class="tg-baqh">0.20 $</td>
+    <td class="tg-baqh", contenteditable='true'></td>
+    <td class="tg-baqh", contenteditable='true'></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">B</td>
+    <td class="tg-baqh">6000</td>
+    <td class="tg-baqh">5:00 PM November 21</td>
+    <td class="tg-baqh">0.30 $</td>
+    <td class="tg-baqh", contenteditable='true'></td>
+    <td class="tg-baqh", contenteditable='true'></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">C</td>
+    <td class="tg-baqh">7000</td>
+    <td class="tg-baqh">5:00 PM November 22</td>
+    <td class="tg-baqh">0.5 $</td>
+    <td class="tg-baqh", contenteditable='true'></td>
+    <td class="tg-baqh", contenteditable='true'></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">D</td>
+    <td class="tg-baqh">8000</td>
+    <td class="tg-baqh">5:00 PM November 23</td>
+    <td class="tg-baqh">0.10 $</td>
+    <td class="tg-baqh", contenteditable='true'></td>
+    <td class="tg-baqh", contenteditable='true'></td>
+  </tr>
+</table>
+
+<br></br>
+
+<!-- to add link to another page -->
+<form action="portfolio-4-col.html", align=center>
+    <input type="submit" value="Confirm bids" />
+</form>
+
+<br></br>
+
+<!--       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
@@ -137,10 +223,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Pagination -->
-      <ul class="pagination justify-content-center">
+<!--       <ul class="pagination justify-content-center">
         <li class="page-item">
           <a class="page-link" href="#" aria-label="Previous">
             <span aria-hidden="true">&laquo;</span>
@@ -163,6 +249,13 @@
           </a>
         </li>
       </ul>
+
+ -->
+
+
+
+    <!-- rest of the code. dont change here.  -->
+
 
     </div>
     <!-- /.container -->
