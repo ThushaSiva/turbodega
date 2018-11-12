@@ -1,0 +1,100 @@
+
+.table100 {
+  background-color: #fff;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  font-weight: unset;
+  padding-right: 10px;
+}
+
+.table100 th {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.table100 td {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.column1 {
+  width: 210px;
+  padding-left: 40px;
+}
+
+.column2 {
+  width: 210px;
+  padding-left: 55px;
+}
+
+.column3 {
+  width: 210px;
+}
+
+.column4 {
+  width: 210px;
+}
+
+.column5 {
+  width: 210px;
+}
+
+.column6 {
+  width: 210px;
+}
+
+/* setting table */
+
+.table100 {
+  width: 100%;
+  position: relative;
+}
+
+.table100-firstcol {
+  background-color: #fff;
+  position: absolute;
+  z-index: 1000;
+  width: 310px;
+  top: 0;
+  left: 0;
+}
+
+.table100-firstcol table {
+  background-color: #fff;
+}
+
+.wrap-table100-nextcols {
+  width: 100%;
+  overflow: auto;
+  padding-left: 310px;
+  padding-bottom: 28px;
+}
+
+.table100-nextcols table{
+  table-layout: fixed;
+}
+
+.shadow-table100-firstcol {
+  box-shadow: 8px 0px 10px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 8px 0px 10px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 8px 0px 10px 0px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 8px 0px 10px 0px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 8px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.table100-firstcol table {
+  background-color: transparent;
+}
+
+.collapsed:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
