@@ -1,0 +1,89 @@
+  margin-left: 5px;
+
+  transition: $transition;
+
+  &:before {
+
+    content: '';
+
+    width: 3px;
+
+    height: 15px;
+
+    position: absolute;
+
+    right: -2px;
+
+    top: 30px;
+
+    display: block;
+
+    background-color: $icon-color;
+
+    transform: rotate(-45deg);
+
+    transition: $transition;
+
+  }
+
+  &:after {
+
+    content: '';
+
+    width: 3px;
+
+    height: 15px;
+
+    position: absolute;
+
+    right: -12px;
+
+    top: 40px;
+
+    display: block;
+
+    background-color: $icon-color;
+
+    transform: rotate(-45deg);
+
+    transition: $transition;
+
+  }
+
+  .open & {
+
+    margin: 0;
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 60px;
+
+    &:before {
+
+      transform: rotate(52deg);
+
+      right: 22px;
+
+      top: 23px;
+
+      height: 18px;
+
+    }
+
+    &:after {
+
+      transform: rotate(-230deg);
+
+      right: 22px;
+
+      top: 13px;
+
+      height: 18px;
+
+    }
+
+  }
+
+}
