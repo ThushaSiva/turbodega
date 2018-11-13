@@ -1,0 +1,24 @@
+form {
+  display: inline-flex;
+  width: 90%;
+  border-radius: 0.2em;
+  position: relative;
+  top: 250px;
+  left: 10%;
+}
+input [type=search] {
+  width: 70%
+  padding: 10px;
+  border: none;
+  border-radius: 0.2em 0 0 0.2em;
+}
+button.search-button {
+  border: none;
+  width: 70px;
+  background-color: #16ef07;
+  border-radius: 0 0.2em 0.2em 0;
+  cursor: pointer;
+}
+button.search-button: hover {
+  background-color: #1FDF11;
+}
